@@ -6,23 +6,75 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>
-        Hello world
-    </h1>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae earum ab aut aspernatur praesentium facilis eum inventore culpa assumenda beatae. Esse facilis accusamus quia impedit et praesentium itaque tenetur quas?
-    </p>
 
-
-
-    <div>
-        <h2 class="title">
-            yo
-        </h2>
-        <p class="text">
-            doooooodoroo   testesttesttset
-        </p>
+<!-- Form -->
+<form action="#">
+    <div class="form-group">
+         <label for="name">
+            Name:
+        </label>
+        <input type="text" id="name" class="form-control" name="name" placeholder="enter your name...">
     </div>
-    
+    <div class="form-group">
+        <label for="email">
+           Email:
+        </label>
+        <input type="email" id="email" class="form-control" name="email" placeholder="enter your email...">
+    </div>
+    <div class="form-group">
+        <label for="date">
+          born:
+        </label>
+        <input type="date" id="date" name="date of birth">
+    </div>
+    <div class="form-group">
+        <label for="male">
+            male
+        </label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="female">
+            female
+        </label>
+        <input type="radio" id="female" name="gender" value="female">
+    </div>
+    <div class="form-group">
+
+        <label for="css">
+            CSS
+        </label>
+        <input type="checkbox" id="css" name="skill" value="css">
+
+        <label for="html">
+            html
+        </label>
+        <input type="checkbox" id="html" name="skill" value="html">
+
+        <label for="js">
+            js
+        </label>
+        <input type="checkbox" id="js" name="skill" value="js">
+
+    </div>
+    <div class="form-group">
+        <label for="occupation">
+            occupation:
+        </label>
+        <select name="occupation" id="occupation">
+            <option value="">select your occupation</option>
+            <option value="student">student</option>
+            <option value="developer" disabled selected>developer</option>
+            <option value="editor">editor</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="text-area">
+            description
+        </label>
+        <textarea name="description" id="text-area"></textarea>
+    </div>
+    <input type="submit"  value="click me">
+</form>
+   
+
 </body>
 </html>
